@@ -24,3 +24,14 @@ class Automovel():
         else:
             print("Não é possível")
             return self.autonomia()
+
+def main():
+        a1 = Automovel(60, 10, 15)
+        a1.autonomia()
+        a1.abastece(45)
+        a1.percorre(150)
+        a1.percorre(350)
+
+
+if __name__ == "__main__":
+        main()
