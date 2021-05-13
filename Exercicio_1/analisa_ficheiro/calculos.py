@@ -20,7 +20,7 @@ def calcula_palavra_comprida(nomeFicheiro):
     texto = ler_texto(nomeFicheiro)
     listaPalavras = texto.split()
     palavraMaisComprida = max(listaPalavras, key = len())
-    
+
     return palavraMaisComprida
 
 
